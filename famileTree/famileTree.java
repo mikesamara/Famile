@@ -1,10 +1,9 @@
-package ru.gb.famileTree.Person;
+package famileTree;
 
-import ru.gb.famileTree.Person.Person;
-
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class famileTree {
+public class famileTree implements Serializable {
     private ArrayList<Person> personList;
 
     public famileTree() {
