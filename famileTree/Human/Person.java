@@ -1,4 +1,6 @@
-package famileTree;
+package famileTree.tree;
+
+import famileTree.Human.Gender;
 
 import java.io.Serializable;
 import java.time.LocalDate;
