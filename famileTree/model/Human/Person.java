@@ -1,11 +1,10 @@
-package famileTree.tree;
+package famileTree.model.Human;
 
-import famileTree.Human.Gender;
+import famileTree.model.tree.FamilyTreeItem;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Person implements Serializable {
+public class Person implements FamilyTreeItem<Person> {
     private String fistName;
     private String lastName;
     private Gender gender;
@@ -33,6 +32,7 @@ public class Person implements Serializable {
     public String getLastName() {
         return lastName;
     }
+
 
     public LocalDate getBirthday() {
         return birthday;
